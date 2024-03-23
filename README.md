@@ -33,4 +33,6 @@ i) Delete all data present in the student table and staff table
 
 j) Drop student table as well as staff table
 
-k) Drop college database.
+k) Drop college database
+
+Solution<a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/DDL_Commands.sql">Solution</a>

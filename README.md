@@ -131,4 +131,30 @@ u) Display all the records of ‘savings-account’ table
 
 <a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/TCL_Commands.sql">Solution</a>
 
+## 6. GROUP BY, ORDER BY & HAVING CLAUSE
 
+Create a table called ‘members’ to store member’s details of a family in the ‘family’ database. The attributes of the table are (mno, mname, mage, role, gender).This family consists of twins
+
+a) Insert following values into ‘members’ table.
+
+![Screenshot](members.png)
+
+b) Returns all the gender entries from the ‘members’ table
+
+c) Retrieve unique values for genders
+
+d) Returns all member’s name, age, role from ‘members’ table
+
+e) Select any one child who is eligible for voting
+
+f) Find out the total no. of males and females in the given family
+
+g) Select all the eligible candidate’s details for voting in the given family
+
+h) Arrange members of the family in increasing order of age
+
+i) Arrange members of the family in decreasing order of age
+
+j) Identify twins in the family and display their details
+
+<a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/Group_By_Having_Order_By.sql">Solution</a>

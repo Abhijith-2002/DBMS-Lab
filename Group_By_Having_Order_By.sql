@@ -1,3 +1,6 @@
+/*Create a table called ‘members’ to store member’s details of a family in the ‘family’ database. 
+The attributes of the table are (mno, mname, mage, role, gender).
+This family consists of twins*/
 create database family;
 use family;
 create table members(

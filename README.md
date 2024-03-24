@@ -82,3 +82,53 @@ p) Delete all the employees from employee table
 q) Display details of employee table
 
 <a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/DML_Commands.sql">Solution</a>
+
+## 3.Familiarization of TCL Commands
+
+Create a database for bank & create a table with name ‘savings-account’. The fields are CID, cname, balance, date of joining.
+
+a) Add 2 records to the ‘savings-account’ table
+
+b) Display the values of ‘savings-account’ table
+
+c) Make the changes permanently
+
+d) Add 2 more records to the ‘savings-account’ table
+
+e) Display all the records of ‘savings-account’ table
+
+f) Modify the balance amount by adding the interest of 6%
+
+g) Display all the records of ‘savings-account’ table
+
+h) Abandon the last changes
+
+i) Display all the records of ‘savings-account’ table
+
+j) Add a marker to the changed state as ‘A’
+
+k) Add two more records to the ‘’savings-account’ table
+
+l) Display all the records of ‘savings-account’ table
+
+m) Modify the balance amount by adding the interest of 6%
+
+n) Display all the records of ‘savings-account’ table
+
+o) Add a marker to the changed state as ‘B’
+
+p) Delete one record from the ‘savings-account table
+
+q) Display all the records of ‘savings-account’ table
+
+r) Abandon the last deletion (ie, recover the table with deleted row)
+
+s) Display all the records of ‘savings-account’ table
+
+t) Abandon to save point/marker ‘A’
+
+u) Display all the records of ‘savings-account’ table
+
+<a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/TCL_Commands.sql">Solution</a>
+
+

@@ -1,25 +1,31 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+    line-height: 1.6;
+    margin: 20px;
+    padding: 20px;
 }
 h1 {
     text-align: center;
-    padding: 20px;
-    color: #333;
 }
 h2 {
-    color: #666;
+    margin-top: 30px;
 }
-.problem-section {
-    margin: 20px;
+p {
+    margin-bottom: 10px;
+}
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+a {
+    color: blue;
+}
+a:hover {
+    color: darkblue;
 }
 img {
-    float: left;
-    margin-right: 20px;
-}
-footer {
-    background-color: #f4f4f4;
-    padding: 10px;
-    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 80%;
 }

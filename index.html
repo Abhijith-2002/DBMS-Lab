@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMS Lab Repository</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+        }
+        h2 {
+            margin-top: 30px;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: square;
+            margin-left: 20px;
+        }
+        a {
+            color: blue;
+        }
+        a:hover {
+            color: darkblue;
+        }
+        img {
+            display: block;
+            margin: auto;
+            margin-top: 20px;
+            max-width: 80%;
+        }
+    </style>
+</head>
+<body>
+    <h1>DBMS Lab Repository</h1>
+    
+    <h2>1. Familiarization of DDL Commands</h2>
+    <ul>
+        <li>a) Create a database for the college</li>
+        <li>b) Create 2 tables student and staff tables with following fields respectively.</li>
+        <img src="staff.png" alt="Staff Table">
+        <img src="student.png" alt="Student Table">
+        <li>c) List out the tables present in the college database.</li>
+        <li>d) Show the structure of student table, staff table.</li>
+        <li>e) Insert values into student table and staff table (at least 3 rows)</li>
+        <li>f) Alter the student table</li>
+        <ul>
+            <li>by adding a column called 'contact number'(int field) and insert values into the added field.</li>
+            <li>by dropping a column named 'contact number'</li>
+            <li>modify the existing column named 'semester'</li>
+        </ul>
+        <li>g) Retrieve all data present in student table.</li>
+        <li>h) Rename student table as 'student details' and staff table as 'staff details'</li>
+        <li>i) Delete all data present in the student table and staff table</li>
+        <li>j) Drop student table as well as staff table</li>
+        <li>k) Drop college database</li>
+    </ul>
+    <p><a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/DDL_Commands.sql">Solution</a></p>
+
+    <h2>2. Familiarization of DML Commands</h2>
+<ul>
+    <li>Create 2 tables employee and department with the corresponding field and constraints given below</li>
+    <img src="office.png" alt="Employee Table">
+    <img src="department.png" alt="Department Table">
+    <li>Insert values into employee and department tables</li>
+    <img src="emp_data.png" alt="Employee Data">
+    <img src="dept_data.png" alt="Department Data">
+    <li>Display all the employee details & department details</li>
+    <li>Update the 'city' and 'salary' of employee whose Eid=E12 to 'cochin' and '70000'</li>
+    <li>Display all the employee details & department details</li>
+    <li>List the name of employees joined after 1-1-1998 and working in department number d10</li>
+    <li>List all employees working in department other than department number d30</li>
+    <li>List the name of employees working in department 'sales'</li>
+    <li>List the name of employee who does not have a manager</li>
+    <li>Display employees details whose city='cochin'</li>
+    <li>List the HOD’s of different department</li>
+    <li>Find out who is the HOD of department D20</li>
+    <li>Delete employee whose Eid=E15 from employee table</li>
+    <li>Delete employees whose city='Delhi'</li>
+    <li>Delete all the employees from employee table</li>
+</ul>
+
+<p><a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/DML_Commands.sql">Solution</a></p>
+
+<h2>3. Familiarization of TCL Commands</h2>
+<ul>
+    <li>Create a database for bank & create a table with name 'savings-account'. The fields are CID, cname, balance, date of joining.</li>
+    <li>Add 2 records to the 'savings-account' table</li>
+    <li>Display the values of 'savings-account' table</li>
+    <li>Make the changes permanently</li>
+    <li>Add 2 more records to the 'savings-account' table</li>
+    <li>Display all the records of 'savings-account' table</li>
+    <li>Modify the balance amount by adding the interest of 6%</li>
+    <li>Display all the records of 'savings-account' table</li>
+    <li>Abandon the last changes</li>
+    <li>Display all the records of 'savings-account' table</li>
+    <li>Add a marker to the changed state as 'A'</li>
+    <li>Add two more records to the 'savings-account' table</li>
+    <li>Display all the records of 'savings-account' table</li>
+    <li>Modify the balance amount by adding the interest of 6%</li>
+    <li>Display all the records of 'savings-account' table</li>
+    <li>Add a marker to the changed state as 'B'</li>
+    <li>Delete one record from the 'savings-account' table</li>
+    <li>Display all the records of 'savings-account' table</li>
+    <li>Abandon the last deletion (i.e., recover the table with deleted row)</li>
+    <li>Display all the records of 'savings-account' table</li>
+    <li>Abandon to save point/marker 'A'</li>
+    <li>Display all the records of 'savings-account' table</li>
+</ul>
+
+<p><a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/TCL_Commands.sql">Solution</a></p>
+
+
+<h2>4. GROUP BY, ORDER BY & HAVING CLAUSE</h2>
+<ul>
+    <li>Create a table called 'members' to store member’s details of a family in the 'family' database. The attributes of the table are (mno, mname, mage, role, gender). This family consists of twins</li>
+    <li>Insert following values into 'members' table.</li>
+    <img src="members.png" alt="Members Table">
+    <li>Returns all the gender entries from the 'members' table</li>
+    <li>Retrieve unique values for genders</li>
+    <li>Returns all member’s name, age, role from 'members' table</li>
+    <li>Select any one child who is eligible for voting</li>
+    <li>Find out the total number of males and females in the given family</li>
+    <li>Select all the eligible candidates' details for voting in the given family</li>
+    <li>Arrange members of the family in increasing order of age</li>
+    <li>Arrange members of the family in decreasing order of age</li>
+    <li>Identify twins in the family and display their details</li>
+</ul>
+
+<p><a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/Group_By_Having_Order_By.sql">Solution</a></p>
+
+<h2>5. Familiarization of DCL Commands</h2>
+<ul>
+    <li>creates two new users with names 'student' and 'teacher'</li>
+    <li>grant a CREATE TABLE and INSERT privileges to the teacher user and create a table named 'advisors' with the following data</li>
+    <img src="class_data.png" alt="Advisors Table">
+    <li>Grant SELECT Privilege to teacher user in 'advisors' table</li>
+    <li>Grant more than one Privilege (such as ALTER, DELETE) to teacher user and delete records corresponding to S8 CS students since they left college. Add 1 more column called 'studentscount' in 'advisors' table</li>
+    <li>Grant the GRANT Privilege to teacher user in 'advisors' table</li>
+    <li>Allows a teacher user to grant SELECT access rights to student user in 'advisors' table</li>
+    <li>Grant an UPDATE privilege to all users in 'advisors' table and update the S4 CS & S2 EC’s students count as 40 and 45 respectively (using PUBLIC option)</li>
+    <li>Grant a DROP privilege to all users in 'advisors' table (using '*'@'localhost' option)</li>
+    <li>Grant all the Privilege to teacher user in 'advisors' table</li>
+    <li>Check the Privileges Granted to different users</li>
+    <li>Revoke SELECT Privilege from teacher user in 'advisors' table</li>
+    <li>Revoke more than Privilege (UPDATE, DROP, ALTER, DELETE) from teacher user in 'advisors' table</li>
+    <li>Revoke a SELECT privilege from all users in 'advisors' table</li>
+    <li>Revoke All the Privilege from student user in 'advisors' table</li>
+    <li>Revoke All the Privilege from teacher user in 'advisors' table</li>
+    <li>Check the Privileges Granted to different users</li>
+    <li>create a role called "developer"</li>
+    <li>grant the role to users named student and teacher</li>
+    <li>grant CREATE TABLE, insert, select, delete, alter, drop privileges to the ROLE developer</li>
+    <li>Check the Privileges Granted to a developer role</li>
+    <li>Revoke an INSERT privilege granted to developer role</li>
+    <li>Revoke all the privileges granted to developer role</li>
+</ul>
+
+<p><a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/DCL_Commands.sql">Solution</a></p>
+
+
+<h2>6. Aggregate functions</h2>
+<ul>
+    <li>Consider a student table with the following data.</li>
+    <img src="student_data.png" alt="Student Table Data">
+    <li>Compute average marks & age of students</li>
+    <li>Compute total number of students</li>
+    <li>Compute number of students with unique/distinct age</li>
+    <li>Compute maximum marks (as Maxmarks) & age (as Maxage) among students from the Student table</li>
+    <li>Compute minimum marks (as Minimum marks) & age (as Minimum age) among students from the student table</li>
+    <li>Compute summation of total marks (Total Marks) among students from the Student table</li>
+    <li>Count number of non-NULL marks fields in student table</li>
+    <li>Find the maximum marks of students whose age=19</li>
+    <li>Count the number of distinct age values in the table</li>
+    <li>Compute highest marks in each department</li>
+    <li>List out different departments in which students are studying</li>
+    <li>Display name of the students who secured top marks in each department</li>
+    <li>Display number of weak students (marks<50) in each department</li>
+    <li>Find out name of the department and the number of students who secured more than 80 marks for department ranking, only departments with more than 2 students are eligible for ranking</li>
+    <li>For each department, retrieve the department name, and average marks of students in that department</li>
+    <li>List the number of students in each department. Only include departments with more than 1 student</li>
+    <li>Find out the students with the same name</li>
+    <li>Find the number of students with the same age</li>
+</ul>
+
+<p><a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/Aggregate_Functions.sql">Solution</a></p>
+
+
+<h2>7. Set operators, Nested queries and JOIN queries</h2>
+<ul>
+    <li><b>Nested Queries</b></li>
+    <li>Create 3 tables student (SID, sname, sage), course (CID, Cname), and student-course (SID, CID)</li>
+    <li>Display details of all the 3 tables</li>
+    <li>Find out student ID (SID) who are enrolled in course name 'DSA' or 'DBMS'</li>
+    <li>Find out names of students who are either enrolled in 'DSA' or 'DBMS'</li>
+    <li>Find out the names of students who are neither enrolled in 'DSA' nor in 'DBMS'</li>
+    <li>Find out the names of students who are enrolled in course ID 'C1'</li>
+    <p><a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/Nested_Queries.sql">Solution</a></p>
+
+    <li><b>SET operations</b></li>
+    <li>Returns all distinct rows from 2 tables. (UNION)</li>
+    <li>Returns all rows from 2 tables. (UNION ALL)</li>
+    <li>Returns all distinct rows common to both tables (INTERSECT)</li>
+    <li>Returns all rows common to both tables (INTERSECT ALL)</li>
+    <li>Returns all distinct rows from 'books' table that are not in 'movies' table. (EXCEPT)</li>
+    <li>Returns all rows from 'books' table that are not in 'movies' table. (EXCEPT ALL)</li>
+    <p><a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/Set_Operations.sql">Solution</a></p>
+
+    <li><b>JOIN operations</b></li>
+    <li>Create student table with following fields</li>
+    <img src="student_structure.png" alt="Student Table Structure">
+    <li>Insert the following values into student table</li>
+    <img src="student_join_data.png" alt="Student Join Data">
+    <li>Create studentcourse table with following fields</li>
+    <img src="student_course.png" alt="Student Course Table Structure">
+    <li>Insert the following values into studentcourse table</li>
+    <img src="student_course_data.png" alt="Student Course Data">
+    <li>Display all the values of employee table</li>
+    <li>Display all the values of customer table</li>
+    <li>Select NAME and Age from Student table and COURSEID from StudentCourse table. (cross join)</li>
+    <li>Each row of the student table is joined with itself and all other rows depending on some conditions (e.g., a.ROLL_NO < b.ROLL_NO). (self join)</li>
+    <li>Show the names and age of students enrolled in different courses. (equi join)</li>
+    <li>Perform natural join on 'student' and 'studentcourse' table</li>
+    <li>Perform left join on 'student' and 'studentcourse' table</li>
+    <li>Perform right join on 'student' and 'studentcourse' table</li>
+    <li>Perform full outer join on 'student' and 'studentcourse' table</li>
+    <p><a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/Join_Operations.sql">Solution</a></p>
+</ul>
+
+
+<h2>10. VIEW and ASSERTION</h2>
+<ul>
+    <li>Create a staff table with arguments staffed, sname, salary, sdept, scategory. Scategory can take 2 values (teaching/ non teaching) only</li>
+    <li>Insert the following values into staff table</li>
+    <img src="staff_data.png" alt="Staff Table Data">
+    <li>Display the details of staff table</li>
+    <li>Create a view named 'faculty' for teaching staff and 'non-faculty' for non-teaching staff</li>
+    <li>Display the contents of 'faculty' & 'non-faculty' views</li>
+    <li>Update the salary of non-teaching staff whose staffed=20 to 15000 in corresponding view</li>
+    <li>Display the contents of 'non-faculty' view</li>
+    <li>Display the contents of staff table</li>
+    <li>Delete the details of staff whose staffed=11 from 'faculty' view</li>
+    <li>Display the contents of 'faculty' view</li>
+    <li>Create another table called 'departmenthead' with following details</li>
+    <img src="departmenthead.png" alt="Departmenthead Table Structure">
+    <li>Create an assertion that specifies the constraint that the salary of a staff must not be greater than the salary of the HOD in which the staff works for</li>
+    <li>Create an assertion that ensures the number of non-teaching staff is less than the number of teaching staff in a department</li>
+</ul>
+
+<p><a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/View_And_Assertion.sql">Solution</a></p>
+
+
+</body>
+</html>

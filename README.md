@@ -251,7 +251,7 @@ q) Find out the students in same name
 
 r) find number of students in same age
 
-<a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/Aggregate_Function.sql">Solution</a>
+<a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/Aggregate_Functions.sql">Solution</a>
 
 ## 7. Set operators, Nested queries and JOIN queries.
 

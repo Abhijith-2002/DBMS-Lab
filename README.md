@@ -207,6 +207,8 @@ u) Revoke an INSERT privilege granted to developer role
 
 v) Revoke all the privileges granted to developer role
 
+<a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/DCL_Commands.sql">Solution</a>
+
 ## 6. Aggregate functions
 
 Consider a student table with following data.
@@ -249,6 +251,8 @@ q) Find out the students in same name
 
 r) find number of students in same age
 
+<a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/Aggregate_Function.sql">Solution</a>
+
 ## 7. Set operators, Nested queries and JOIN queries.
 
 ### a) Nested Queries
@@ -264,6 +268,8 @@ c) Find out names of students who are either enrolled in ‘DSA’ or ‘DBMS’
 d) Find out the names of students who are neither enrolled in ‘DSA’ nor in ‘DBMS’
 
 e) Find out the names of students who are enrolled in course ID ‘C1’
+
+<a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/Nested_Queries.sql">Solution</a>
 
 ### b) SET operations
 
@@ -285,6 +291,7 @@ e) Returns all distinct rows from ‘books’ table that is not in ‘movies’ 
 
 f) Returns all rows from ‘books’ table that is not in ‘movies’ table. (EXCEPT ALL)
 
+<a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/Set_Operations.sql">Solution</a>
 
 ### c) JOIN operations
 
@@ -326,6 +333,8 @@ h) Perform right join on ‘student’ and ‘studentcourse’ table
 
 i) Perform full outer join on ‘student’ and ‘studentcourse’ table
 
+<a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/Join_Operations.sql">Solution</a>
+
 ## 10. VIEW and ASSERTION
 
 a) Create a staff table with arguments staffed, sname, salary, sdept, scategory. Scategory can take 2 values (teaching/ non teaching) only
@@ -357,3 +366,5 @@ h) Create another table called ‘departmenthead’ with following details
 i) Create an assertion that specify the constraint that the salary of a staff must not be greater than salary of the HOD in which the staff works for
 
 j) Create an assertion that ensure number of non-teaching staff less than number of teaching staff in a department
+
+<a href="https://github.com/Abhijith-2002/DBMS-Lab/blob/main/View_And_Assertion.sql">Solution</a>
